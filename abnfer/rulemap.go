@@ -1,4 +1,4 @@
-package lang
+package abnfer
 
 type RuleMap struct {
 	m map[string]Rule

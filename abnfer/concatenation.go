@@ -1,4 +1,4 @@
-package lang
+package abnfer
 
 type ConcatenationRule struct {
 	Repetition

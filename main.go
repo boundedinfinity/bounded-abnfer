@@ -1,3 +1,3 @@
-package abnfer
+package main
 
-//go:generate enumer -standalone=true -package=tokens -name=Token -items-from=tokens.txt
+//-go:generate enumer -standalone=true -package=tokens -name=Token -items-from=tokens.txt

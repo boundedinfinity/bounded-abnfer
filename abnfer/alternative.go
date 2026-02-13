@@ -1,4 +1,4 @@
-package lang
+package abnfer
 
 type AlternativesRule struct {
 	Repetition

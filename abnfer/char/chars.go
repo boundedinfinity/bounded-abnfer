@@ -4,6 +4,7 @@ type Char byte
 
 func (c Char) Byte() byte     { return byte(c) }
 func (c Char) String() string { return string(c) }
+func (c Char) Rune() rune     { return rune(c) }
 
 const (
 	NULL                      Char = 0x00
